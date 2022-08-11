@@ -30,6 +30,8 @@ namespace GameKit.Tools
         [Header("Progress")]
         public int ProgressTarget;                  // Amount of progress needed to unlock this achievement.
         public int ProgressCurrent;                 // Current amount of progress made on this achievement
+        
+        //Storage
         protected AchievementDisplayItem _achievementDisplayItem;
 
         // Unlocks the achievement, asks for a save of the current achievements, and triggers an AchievementUnlockedEvent for this achievement.
